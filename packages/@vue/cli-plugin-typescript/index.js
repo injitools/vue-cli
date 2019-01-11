@@ -73,7 +73,8 @@ module.exports = (api, options) => {
             tslint: options.lintOnSave !== false && fs.existsSync(api.resolve('tslint.json')),
             formatter: 'codeframe',
             // https://github.com/TypeStrong/ts-loader#happypackmode-boolean-defaultfalse
-            checkSyntacticErrors: useThreads
+            checkSyntacticErrors: useThreads,
+            useTypescriptIncrementalApi: true
           }])
     }
   })
