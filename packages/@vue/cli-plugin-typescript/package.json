@@ -1,5 +1,5 @@
 {
-  "name": "@injivue/cli-plugin-typescript",
+  "name": "@vue/cli-plugin-typescript",
   "version": "3.3.0",
   "description": "typescript plugin for vue-cli",
   "main": "index.js",
